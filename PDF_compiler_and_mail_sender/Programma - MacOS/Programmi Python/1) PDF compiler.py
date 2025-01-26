@@ -1,3 +1,5 @@
+# Copyright (c) 2025 AstroTeo99 - Licenza MIT
+
 import pandas as pd
 import fitz
 import os
