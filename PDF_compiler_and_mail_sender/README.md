@@ -5,7 +5,7 @@ Welcome to the **PDF Compiler and Mail Sender** branch of the Learning Python re
 ## Folder Structure
 This branch contains the following components:
 
-- **`fattura_base_compilabile.pdf`**: A base invoice template in PDF format, ready to be filled with data.
+- **`fattura_base_compilabile.pdf`**: A base invoice template in PDF format, ready to be filled with data manually.
 - **`Windows 11/`**: Contains programs and dependencies for Windows 11.
 - **`macOS/`**: Contains programs and dependencies for macOS.
 
@@ -48,11 +48,15 @@ The Mail Sender automates the process of sending invoices created with the PDF C
 - **Customization**: Fonts and email templates can be modified to suit your needs.
 
 ## Getting Started
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/AstroTeo99/learning_python.git
-   ```
-   Navigate to the `PDF_compiler_and_mail_sender` folder.
+1. **Download or Clone the Folder**
+   - To download only this folder, use a tool like [DownGit](https://minhaskamal.github.io/DownGit/#/home):
+     1. Paste the link: `https://github.com/AstroTeo99/learning_python/tree/main/PDF_compiler_and_mail_sender`.
+     2. Click **Download** to get the folder as a ZIP file.
+   - Alternatively, clone the entire repository:
+     ```bash
+     git clone https://github.com/AstroTeo99/learning_python.git
+     ```
+     Navigate to the `PDF_compiler_and_mail_sender` folder.
 
 2. **Choose Your Platform**
    Select the appropriate folder (`Windows 11/` or `macOS/`) for your operating system.
