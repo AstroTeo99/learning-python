@@ -1,0 +1,6 @@
+pandas
+astropy
+plotly
+scipy
+sympy
+sqlite3

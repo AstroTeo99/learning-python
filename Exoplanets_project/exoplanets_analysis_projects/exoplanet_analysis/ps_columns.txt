@@ -1,0 +1,302 @@
+Column Name				Unit				Description
+
+pl_name								Planet Name
+hostname								Host Name
+pl_letter								Planet Letter
+hd_name								HD ID
+hip_name								HIP ID
+tic_id								TIC ID
+gaia_id								GAIA ID
+default_flag								Default Parameter Set
+sy_snum								Number of Stars
+sy_pnum								Number of Planets
+sy_mnum								Number of Moons
+cb_flag								Circumbinary Flag
+discoverymethod								Discovery Method
+disc_year								Discovery Year
+disc_refname								Discovery Reference
+disc_pubdate								Discovery Publication Date
+disc_locale								Discovery Locale
+disc_facility								Discovery Facility
+disc_telescope								Discovery Telescope
+disc_instrument								Discovery Instrument
+rv_flag								Detected by Radial Velocity Variations
+pul_flag								Detected by Pulsar Timing Variations
+ptv_flag								Detected by Pulsation Timing Variations
+tran_flag								Detected by Transits
+ast_flag								Detected by Astrometric Variations
+obm_flag								Detected by Orbital Brightness Modulations
+micro_flag								Detected by Microlensing
+etv_flag								Detected by Eclipse Timing Variations
+ima_flag								Detected by Imaging
+dkin_flag								Detected by Disk Kinematics
+soltype								Solution Type
+pl_controv_flag								Controversial Flag
+pl_refname								Planetary Parameter Reference
+pl_orbper				days				Orbital Period
+pl_orbpererr1				days				Orbital Period Upper Unc.
+pl_orbpererr2				days				Orbital Period Lower Unc.
+pl_orbperlim								Orbital Period Limit Flag
+pl_orbsmax				au				Orbit Semi-Major Axis
+pl_orbsmaxerr1				au				Orbit Semi-Major Axis Upper Unc.
+pl_orbsmaxerr2				au				Orbit Semi-Major Axis Lower Unc.
+pl_orbsmaxlim								Orbit Semi-Major Axis Limit Flag
+pl_rade				Earth Radius				Planet Radius
+pl_radeerr1				Earth Radius				Planet Radius Upper Unc.
+pl_radeerr2				Earth Radius				Planet Radius Lower Unc.
+pl_radelim								Planet Radius Limit Flag
+pl_radj				Jupiter Radius				Planet Radius
+pl_radjerr1				Jupiter Radius				Planet Radius Upper Unc.
+pl_radjerr2				Jupiter Radius				Planet Radius Lower Unc.
+pl_radjlim								Planet Radius Limit Flag
+pl_masse				Earth Mass				Planet Mass
+pl_masseerr1				Earth Mass				Planet Mass Upper Unc.
+pl_masseerr2				Earth Mass				Planet Mass Lower Unc.
+pl_masselim				Earth Mass				Planet Mass Limit Flag
+pl_massj				Jupiter Mass				Planet Mass
+pl_massjerr1				Jupiter Mass				Planet Mass Upper Unc.
+pl_massjerr2				Jupiter Mass				Planet Mass Lower Unc.
+pl_massjlim				Jupiter Mass				Planet Mass Limit Flag
+pl_msinie				Earth Mass				Planet Mass*sin(i)
+pl_msinieerr1				Earth Mass				Planet Mass*sin(i) Upper Unc.
+pl_msinieerr2				Earth Mass				Planet Mass*sin(i) Lower Unc.
+pl_msinielim				Earth Mass				Planet Mass*sin(i) Limit Flag
+pl_msinij				Jupiter Mass				Planet Mass*sin(i)
+pl_msinijerr1				Jupiter Mass				Planet Mass*sin(i) Upper Unc.
+pl_msinijerr2				Jupiter Mass				Planet Mass*sin(i) Lower Unc.
+pl_msinijlim				Jupiter Mass				Planet Mass*sin(i) Limit Flag
+pl_cmasse				Earth Mass				Planet Mass*sin(i)/sin(i)
+pl_cmasseerr1				Earth Mass				Planet Mass*sin(i)/sin(i) Upper Unc.
+pl_cmasseerr2				Earth Mass				Planet Mass*sin(i)/sin(i) Lower Unc.
+pl_cmasselim				Earth Mass				Planet Mass*sin(i)/sin(i) Limit Flag
+pl_cmassj				Jupiter Mass				Planet Mass*sin(i)/sin(i)
+pl_cmassjerr1				Jupiter Mass				Planet Mass*sin(i)/sin(i) Upper Unc.
+pl_cmassjerr2				Jupiter Mass				Planet Mass*sin(i)/sin(i) Lower Unc.
+pl_cmassjlim				Jupiter Mass				Planet Mass*sin(i)/sin(i) Limit Flag
+pl_bmasse				Earth Mass				Planet Mass or Mass*sin(i)
+pl_bmasseerr1				Earth Mass				Planet Mass or Mass*sin(i) Upper Unc.
+pl_bmasseerr2				Earth Mass				Planet Mass or Mass*sin(i) Lower Unc.
+pl_bmasselim				Earth Mass				Planet Mass or Mass*sin(i) Limit Flag
+pl_bmassj				Jupiter Mass				Planet Mass or Mass*sin(i)
+pl_bmassjerr1				Jupiter Mass				Planet Mass or Mass*sin(i) Upper Unc.
+pl_bmassjerr2				Jupiter Mass				Planet Mass or Mass*sin(i) Lower Unc.
+pl_bmassjlim				Jupiter Mass				Planet Mass or Mass*sin(i) Limit Flag
+pl_bmassprov								Planet Mass or Mass*sin(i) Provenance
+pl_dens				g/cm**3				Planet Density
+pl_denserr1				g/cm**3				Planet Density Upper Unc.
+pl_denserr2				g/cm**3				Planet Density Lower Unc.
+pl_denslim								Planet Density Limit Flag
+pl_orbeccen								Eccentricity
+pl_orbeccenerr1								Eccentricity Upper Unc.
+pl_orbeccenerr2								Eccentricity Lower Unc.
+pl_orbeccenlim								Eccentricity Limit Flag
+pl_insol				Earth Flux				Insolation Flux
+pl_insolerr1				Earth Flux				Insolation Flux Upper Unc.
+pl_insolerr2				Earth Flux				Insolation Flux Lower Unc.
+pl_insollim								Insolation Flux Limit Flag
+pl_eqt				K				Equilibrium Temperature
+pl_eqterr1				K				Equilibrium Temperature Upper Unc.
+pl_eqterr2				K				Equilibrium Temperature Lower Unc.
+pl_eqtlim								Equilibrium Temperature Limit Flag
+pl_orbincl				deg				Inclination
+pl_orbinclerr1				deg				Inclination Upper Unc.
+pl_orbinclerr2				deg				Inclination Lower Unc.
+pl_orbincllim								Inclination Limit Flag
+pl_tranmid				days				Transit Midpoint
+pl_tranmiderr1				days				Transit Midpoint Upper Unc.
+pl_tranmiderr2				days				Transit Midpoint Lower Unc.
+pl_tranmidlim								Transit Midpoint Limit Flag
+pl_tsystemref								Time Reference Frame and Standard
+ttv_flag								Data show Transit Timing Variations
+pl_imppar								Impact Parameter
+pl_impparerr1								Impact Parameter Upper Unc.
+pl_impparerr2								Impact Parameter Lower Unc.
+pl_impparlim								Impact Parameter Limit Flag
+pl_trandep				%				Transit Depth
+pl_trandeperr1				%				Transit Depth Upper Unc.
+pl_trandeperr2				%				Transit Depth Lower Unc.
+pl_trandeplim								Transit Depth Limit Flag
+pl_trandur				hours				Transit Duration
+pl_trandurerr1				hours				Transit Duration Upper Unc.
+pl_trandurerr2				hours				Transit Duration Lower Unc.
+pl_trandurlim								Transit Duration Limit Flag
+pl_ratdor								Ratio of Semi-Major Axis to Stellar Radius
+pl_ratdorerr1								Ratio of Semi-Major Axis to Stellar Radius Upper Unc.
+pl_ratdorerr2								Ratio of Semi-Major Axis to Stellar Radius Lower Unc.
+pl_ratdorlim								Ratio of Semi-Major Axis to Stellar Radius Limit Flag
+pl_ratror								Ratio of Planet to Stellar Radius
+pl_ratrorerr1								Ratio of Planet to Stellar Radius Upper Unc.
+pl_ratrorerr2								Ratio of Planet to Stellar Radius Lower Unc.
+pl_ratrorlim								Ratio of Planet to Stellar Radius Limit Flag
+pl_occdep				%				Occultation Depth
+pl_occdeperr1				%				Occultation Depth Upper Unc.
+pl_occdeperr2				%				Occultation Depth Lower Unc.
+pl_occdeplim								Occultation Depth Limit Flag
+pl_orbtper				days				Epoch of Periastron
+pl_orbtpererr1				days				Epoch of Periastron Upper Unc.
+pl_orbtpererr2				days				Epoch of Periastron Lower Unc.
+pl_orbtperlim								Epoch of Periastron Limit Flag
+pl_orbtper_systemref								Epoch of Periastron Time System Frame and Standard
+pl_orblper				deg				Argument of Periastron
+pl_orblpererr1				deg				Argument of Periastron Upper Unc.
+pl_orblpererr2				deg				Argument of Periastron Lower Unc.
+pl_orblperlim								Argument of Periastron Limit Flag
+pl_rvamp				m/s				Radial Velocity Amplitude
+pl_rvamperr1				m/s				Radial Velocity Amplitude Upper Unc.
+pl_rvamperr2				m/s				Radial Velocity Amplitude Lower Unc.
+pl_rvamplim								Radial Velocity Amplitude Limit Flag
+pl_projobliq				deg				Projected Obliquity
+pl_projobliqerr1				deg				Projected Obliquity Upper Unc.
+pl_projobliqerr2				deg				Projected Obliquity Lower Unc.
+pl_projobliqlim								Projected Obliquity Limit Flag
+pl_trueobliq				deg				True Obliquity
+pl_trueobliqerr1				deg				True Obliquity Upper Unc.
+pl_trueobliqerr2				deg				True Obliquity Lower Unc.
+pl_trueobliqlim								True Obliquity Limit Flag
+st_refname								Stellar Parameter Reference
+st_spectype								Spectral Type
+st_teff				K				Stellar Effective Temperature
+st_tefferr1				K				Stellar Effective Temperature Upper Unc.
+st_tefferr2				K				Stellar Effective Temperature Lower Unc.
+st_tefflim								Stellar Effective Temperature Limit Flag
+st_rad				Solar Radius				Stellar Radius
+st_raderr1				Solar Radius				Stellar Radius Upper Unc.
+st_raderr2				Solar Radius				Stellar Radius Lower Unc.
+st_radlim								Stellar Radius Limit Flag
+st_mass				Solar mass				Stellar Mass
+st_masserr1				Solar mass				Stellar Mass Upper Unc.
+st_masserr2				Solar mass				Stellar Mass Lower Unc.
+st_masslim								Stellar Mass Limit Flag
+st_met				dex				Stellar Metallicity
+st_meterr1				dex				Stellar Metallicity Upper Unc.
+st_meterr2				dex				Stellar Metallicity Lower Unc.
+st_metlim								Stellar Metallicity Limit Flag
+st_metratio								Stellar Metallicity Ratio
+st_lum				log(Solar)				Stellar Luminosity
+st_lumerr1				log(Solar)				Stellar Luminosity Upper Unc.
+st_lumerr2				log(Solar)				Stellar Luminosity Lower Unc.
+st_lumlim								Stellar Luminosity Limit Flag
+st_logg				log10(cm/s**2)				Stellar Surface Gravity
+st_loggerr1				log10(cm/s**2)				Stellar Surface Gravity Upper Unc.
+st_loggerr2				log10(cm/s**2)				Stellar Surface Gravity Lower Unc.
+st_logglim								Stellar Surface Gravity Limit Flag
+st_age				Gyr				Stellar Age
+st_ageerr1				Gyr				Stellar Age Upper Unc.
+st_ageerr2				Gyr				Stellar Age Lower Unc.
+st_agelim								Stellar Age Limit Flag
+st_dens				g/cm**3				Stellar Density
+st_denserr1				g/cm**3				Stellar Density Upper Unc.
+st_denserr2				g/cm**3				Stellar Density Lower Unc.
+st_denslim								Stellar Density Limit Flag
+st_vsin				km/s				Stellar Rotational Velocity
+st_vsinerr1				km/s				Stellar Rotational Velocity Upper Unc.
+st_vsinerr2				km/s				Stellar Rotational Velocity Lower Unc.
+st_vsinlim								Stellar Rotational Velocity Limit Flag
+st_rotp				days				Stellar Rotational Period
+st_rotperr1				days				Stellar Rotational Period Upper Unc.
+st_rotperr2				days				Stellar Rotational Period Lower Unc.
+st_rotplim								Stellar Rotational Period Limit Flag
+st_radv				km/s				Systemic Radial Velocity
+st_radverr1				km/s				Systemic Radial Velocity Upper Unc.
+st_radverr2				km/s				Systemic Radial Velocity Lower Unc.
+st_radvlim								Systemic Radial Velocity Limit Flag
+sy_refname								System Parameter Reference
+rastr				sexagesimal				RA
+ra				decimal				RA
+decstr				sexagesimal				Dec
+dec				decimal				Dec
+raerr1								RA Upper Unc
+raerr2								RA Lower Unc
+decerr1								Dec Upper Unc
+decerr2								Dec Lower Unc
+glat				deg				Galactic Latitude
+glaterr1				deg				Galactic Latitude Upper Unc
+glaterr2				deg				Galactic Latitude Lower Unc
+glon				deg				Galactic Longitude
+glonerr1				deg				Galactic Longitude Upper Unc
+glonerr2				deg				Galactic Longitude Lower Unc
+elat				deg				Ecliptic Latitude
+elaterr1				deg				Ecliptic Latitude Upper Unc
+elaterr2				deg				Ecliptic Latitude Lower Unc
+elon				deg				Ecliptic Longitude
+elonerr1				deg				Ecliptic Longitude Upper Unc
+elonerr2				deg				Ecliptic Longitude Lower Unc
+sy_pm				mas/yr				Total Proper Motion
+sy_pmerr1				mas/yr				Total Proper Motion Upper Unc
+sy_pmerr2				mas/yr				Total Proper Motion Lower Unc
+sy_pmra				mas/yr				Proper Motion (RA)
+sy_pmraerr1				mas/yr				Proper Motion (RA) Upper Unc
+sy_pmraerr2				mas/yr				Proper Motion (RA) Lower Unc
+sy_pmdec				mas/yr				Proper Motion (Dec)
+sy_pmdecerr1				mas/yr				Proper Motion (Dec) Upper Unc
+sy_pmdecerr2				mas/yr				Proper Motion (Dec) Lower Unc
+sy_dist				pc				Distance
+sy_disterr1				pc				Distance Upper Unc
+sy_disterr2				pc				Distance Lower Unc
+sy_plx				mas				Parallax
+sy_plxerr1				mas				Parallax Upper Unc
+sy_plxerr2				mas				Parallax Lower Unc
+sy_bmag								B (Johnson) Magnitude
+sy_bmagerr1								B (Johnson) Magnitude Upper Unc
+sy_bmagerr2								B (Johnson) Magnitude Lower Unc
+sy_vmag								V (Johnson) Magnitude
+sy_vmagerr1								V (Johnson) Magnitude Upper Unc
+sy_vmagerr2								V (Johnson) Magnitude Lower Unc
+sy_jmag								J (2MASS) Magnitude
+sy_jmagerr1								J (2MASS) Magnitude Upper Unc
+sy_jmagerr2								J (2MASS) Magnitude Lower Unc
+sy_hmag								H (2MASS) Magnitude
+sy_hmagerr1								H (2MASS) Magnitude Upper Unc
+sy_hmagerr2								H (2MASS) Magnitude Lower Unc
+sy_kmag								Ks (2MASS) Magnitude
+sy_kmagerr1								Ks (2MASS) Magnitude Upper Unc
+sy_kmagerr2								Ks (2MASS) Magnitude Lower Unc
+sy_umag								u (Sloan) Magnitude
+sy_umagerr1								u (Sloan) Magnitude Upper Unc
+sy_umagerr2								u (Sloan) Magnitude Lower Unc
+sy_gmag								g (Sloan) Magnitude
+sy_gmagerr1								g (Sloan) Magnitude Upper Unc
+sy_gmagerr2								g (Sloan) Magnitude Lower Unc
+sy_rmag								r (Sloan) Magnitude
+sy_rmagerr1								r (Sloan) Magnitude Upper Unc
+sy_rmagerr2								r (Sloan) Magnitude Lower Unc
+sy_imag								i (Sloan) Magnitude
+sy_imagerr1								i (Sloan) Magnitude Upper Unc
+sy_imagerr2								i (Sloan) Magnitude Lower Unc
+sy_zmag								z (Sloan) Magnitude
+sy_zmagerr1								z (Sloan) Magnitude Upper Unc
+sy_zmagerr2								z (Sloan) Magnitude Lower Unc
+sy_w1mag								W1 (WISE) Magnitude
+sy_w1magerr1								W1 (WISE) Magnitude Upper Unc
+sy_w1magerr2								W1 (WISE) Magnitude Lower Unc
+sy_w2mag								W2 (WISE) Magnitude
+sy_w2magerr1								W2 (WISE) Magnitude Upper Unc
+sy_w2magerr2								W2 (WISE) Magnitude Lower Unc
+sy_w3mag								W3 (WISE) Magnitude
+sy_w3magerr1								W3 (WISE) Magnitude Upper Unc
+sy_w3magerr2								W3 (WISE) Magnitude Lower Unc
+sy_w4mag								W4 (WISE) Magnitude
+sy_w4magerr1								W4 (WISE) Magnitude Upper Unc
+sy_w4magerr2								W4 (WISE) Magnitude Lower Unc
+sy_gaiamag								Gaia Magnitude
+sy_gaiamagerr1								Gaia Magnitude Upper Unc
+sy_gaiamagerr2								Gaia Magnitude Lower Unc
+sy_icmag								I (Cousins) Magnitude
+sy_icmagerr1								I (Cousins) Magnitude Upper Unc
+sy_icmagerr2								I (Cousins) Magnitude Lower Unc
+sy_tmag								TESS Magnitude
+sy_tmagerr1								TESS Magnitude Upper Unc
+sy_tmagerr2								TESS Magnitude Lower Unc
+sy_kepmag								Kepler Magnitude
+sy_kepmagerr1								Kepler Magnitude Upper Unc
+sy_kepmagerr2								Kepler Magnitude Lower Unc
+rowupdate								Date of Last Update
+pl_pubdate								Planetary Parameter Reference Publication Date
+releasedate								Release Date
+pl_nnotes								Number of Notes
+st_nphot								Number of Photometry Time Series
+st_nrvc								Number of Radial Velocity Time Series
+st_nspec								Number of Stellar Spectra Measurements
+pl_nespec								Number of Emission Spectroscopy Measurements
+pl_ntranspec								Number of Transmission Spectroscopy Measurements
+								
